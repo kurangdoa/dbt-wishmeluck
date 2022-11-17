@@ -2,3 +2,5 @@ version: 2
 
 seeds:
   - name: raw_payments
+    config:
+      schema: seeds
