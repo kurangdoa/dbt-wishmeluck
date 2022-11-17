@@ -36,3 +36,7 @@ models:
     +materialized: table
     staging:
       +materialized: view
+
+seeds:
+  jaffle_shop:
+    +schema: seed_data
