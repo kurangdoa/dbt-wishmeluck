@@ -1,7 +1,7 @@
 {{
     config(
         materialized="view",
-        tag="hourly"
+        tags="hourly"
         full_refresh=False
     )
 }}
