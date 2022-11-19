@@ -1,8 +1,10 @@
 {{
     config(
         materialized="view"
+        , enabled=true
         , tags="hourly"
         , full_refresh=true
+        , alias='staging_customer'
     )
 }}
 
