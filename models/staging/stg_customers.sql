@@ -2,7 +2,7 @@
     config(
         materialized="view",
         tags="hourly"
-        full_refresh=False
+        full_refresh=true
     )
 }}
 
