@@ -1,3 +1,11 @@
+{{
+    config(
+        materialized="view",
+        tag="hourly"
+        full_refresh=False
+    )
+}}
+
 select
     id as customer_id,
     first_name,
