@@ -4,7 +4,7 @@
         , enabled=true
         , tags="hourly"
         , full_refresh=true
-        , alias='staging_customer'
+        , alias='staging_customers'
     )
 }}
 
